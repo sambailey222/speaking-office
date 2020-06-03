@@ -9,6 +9,39 @@
 }
 
 .dark-blue-text {
-    font: lato;
     color: #1B75BC;
+}
+
+.light-blue-text {
+    color: #21AEB0
+}
+
+
+.service-level-parallax {
+    background-image: url("Images/servicelevel.png");
+
+    height: 400px;
+
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.founders-parallax {
+    background-image: url("Images/Founders.PNG");
+
+    height: 400px;
+
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+hr {
+    height: 1px;
+    color: rgba(136, 122, 122, 0.685);
+    border:none;
+    background-color:rgba(136, 122, 122, 0.685);
 }
