@@ -1,0 +1,14 @@
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.wall-banner {
+    background-image: url("Images/wall-bg_prominant.jpg");
+    background-size: cover;
+}
+
+.dark-blue-text {
+    font: lato;
+    color: #1B75BC;
+}
