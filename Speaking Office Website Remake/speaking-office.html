@@ -11,7 +11,24 @@
 
   <body> 
       <header>
-        <div class="jumbotron wall-banner" style="height:710px">
+        <div class="wall-banner" style="height:710px" id="home">
+
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#home"><img src="Images/SPEAKING_OFFICE_LOGO.png" alt="Speaking Office" class="img-fluid" style="max-height: 100px; width: 400px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="justify-content-end collapse navbar-collapse " id="navbarNavAltMarkup"> <!--justify-content-end is what makes the other items go to the right-->
+              <div class="navbar-nav">
+                <a class="nav-item nav-link light-blue-text" href="#speakers">Speakers<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link light-blue-text" href="#services">Services</a>
+                <a class="nav-item nav-link light-blue-text" href="#bureaus">Bureaus</a>
+                <a class="nav-item nav-link light-blue-text" href="#team">Team</a>
+                <a class="nav-item nav-link light-blue-text" href="#contact">Contact</a>
+              </div>
+            </div>
+          </nav>
+
           <div class="container text-center pr-10" style="padding-top: 230px">
       
             <h2 class="dark-blue-text">Speaking Office is a bespoke management company representing talented individuals with unique, powerful and interesting ideas worth sharing.</h2>
@@ -19,11 +36,11 @@
             <h2 class="light-blue-text">Our aim is to help foster and develop each of our speakers’ personal brand to allow them to realise their true potential on the global stage.</h2>
           
           </div>
-        </div> <!-- /Jumbotron-->
+        </div>
       </header>
 
       <!--Speaker Section-->
-      <div class="container pt-5">
+      <div class="container pt-5" id="speakers">
 
         <h1 class="text-center light-blue-text">Introducing the talented speakers we represent</h1>
         <h6 class="text-center dark-blue-text">Click on any speaker's photograph for more details</h6>
@@ -121,7 +138,7 @@
 
       <div class="service-level-parallax"></div>
 
-      <div class="container pt-5">
+      <div class="container pt-5" id="services">
         <h1 class="text-center light-blue-text pb-4">Tailor-made and full-service... it's what we do best</h1>
         <h6 class="text-center dark-blue-text pb-4">No two keynote speakers are ever the same, which means our services are individually designed around each client’s public persona, personal style of delivery and area of expertise. There are several areas we focus on – and in varying degrees – including:</h6>
 
@@ -129,7 +146,7 @@
         <hr>
       </div> <!--/Services Section-->
 
-      <div class="container pt-5">
+      <div class="container" pt-5 id="bureaus">
         <h1 class="text-center light-blue-text pb-4">Our Bureau Partners</h1>
         <h6 class="text-center dark-blue-text pb-4">Making memorable events happen takes a great deal of teamwork, and over the years we have forged close and valued relationships with many of the top speaker bureaus in the industry. Below are some of the bureaus that we work with regularly and rely on us, and our speakers, to deliver a premium events experience.</h6>
         
@@ -175,7 +192,7 @@
 
       <div class="founders-parallax"></div>
 
-      <div class="container pt-5"> <!--Founders-->
+      <div class="container pt-5" id="team"> <!--Founders-->
         <h1 class="text-center light-blue-text pb-4">Meet the Founders</h1>
 
         <div class="container pb-4">
@@ -214,8 +231,69 @@
 
       </div><!--/Founders Div-->
 
+      <div class="container pt-5"> <!--Agents Div-->
+        
+        <h1 class="text-center light-blue-text pb-4">And our Agents</h1>
+
+        <div class="row justify-content-center">
+
+          <div class="col-md-4">
+
+            <img src="Images/sam-bailey.png" alt="Sam Bailey" class="img-fluid pb-4">
+            <h3 class="light-blue-text">Sam Bailey</h3>
+            <p class="dark-blue-text">Sam joined the team in early 2018 to assist with the day to day running of the business, and now manages a cross section of the Speaking Office roster. Prior to this he spent two years travelling the world after university and worked for Amazon UK, where he realised that his true vocation lay at a smaller business which offered the chance to work with inspiring individuals.
+            </p>
+            <p class="dark-blue-text">Outside of Speaking Office, Sam enjoys world travel, languages, cinema, playing the drums and is teaching himself to play the piano.
+            </p>
+          </div>
+
+          <div class="col-md-4">
+
+            <img src="Images/diana-stoney.png" alt="Diana Stoney" class="img-fluid pb-4">
+            <h3 class="light-blue-text">Diana Stoney</h3>
+            <p class="dark-blue-text">Diana has been working in the speaking industry for over a decade. With a foundation in the American market, she got her start at a speaker bureau based near Washington DC. After many years building relationships across numerous bureaux, she is excited to apply her skills to the agency side of the marketplace.   
+            </p>
+            <p class="dark-blue-text">Outside of the office, Diana is married with two children, and occasionally graces Speaking Office with their darling cockapoo, Harley, to serve as our resident office dog. This American ambassador is also an amateur hot yogi, cake baking enthusiast and house-plant murderer at large.
+            </p>            
+          </div>
+        </div>
+      </div><!--Agents Div-->
+
+      <div class="applause-parallax"></div>
+
+      <div class="container pt-5" id="contact"> <!--Contact Div-->
+        
+        <h1 class="text-center light-blue-text pb-4">Say Hello</h1>
+
+        <p class="text-center dark-blue-text">For more information about how we could represent you, our services or any of the speakers featured above, please drop us a line at:</p>
+        
+        <br>
+        <h4 class="text-center light-blue-text">T: +44 (0) 7970 170 848</h4>
+        <h4 class="text-center light-blue-text">E: info@speakingoffice.com</h4>
+
+        <br>
+        <p class="text-center dark-blue-text pb-4"><strong>You can also follow us on:</strong></p>
+
+        <div class="text-center">
+        <a href="https://www.facebook.com/SpeakingOffice1/" target="_blank"><img src="Images/facebook-icon.png" alt="Facebook" class="icon"></a>
+        <a href="https://twitter.com/SpeakingOffice1" target="_blank"><img src="Images/twitter-2.png" alt="Twitter" class="icon mr-2 ml-2"></a>
+        <a href="https://linkedin.com/company/speaking-office-limited" target="_blank"><img src="Images/linkedin.png" alt="Linkedin" class="icon"></a>
+        </div>
+      </div><!--/Contact Div-->
+
+      <footer class="footer text-center pt-5 pb-5 mt-5">
+        <p><strong>Speaking Office Ltd.</strong>
+        <br>
+        25-27 Horsell Road, Highbury & Islington, London N5 1XL 
+        <br>
+        Company Number 08860151
+        </p>
+        <p>© 2020 Speaking Office Ltd. All rights reserved.</p>
 
 
+
+      
+      </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

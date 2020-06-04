@@ -13,9 +13,19 @@
 }
 
 .light-blue-text {
-    color: #21AEB0
+    color: #21AEB0 !important;
 }
 
+.nav-link {
+    
+    font-size:19px;
+    margin-left: 1rem;
+
+}
+
+.navbar {
+    padding: 1.5rem 5rem;
+}
 
 .service-level-parallax {
     background-image: url("Images/servicelevel.png");
@@ -39,9 +49,36 @@
     background-size: cover;
 }
 
+.applause-parallax {
+    background-image: url("Images/applause_0003_new+teal_dark+seagreen.jpg");
+
+    height: 400px;
+
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 hr {
     height: 1px;
     color: rgba(136, 122, 122, 0.685);
     border:none;
     background-color:rgba(136, 122, 122, 0.685);
+}
+
+.icon {
+    height: 48px;
+    width:48px;
+}
+
+.footer {
+    color:white;
+    background-color: #21AEB0;
+    font-size: 12px;
+    letter-spacing: 0.16px;
+}
+
+.navbar-nav > a:hover {
+    opacity: 0.5;
 }
