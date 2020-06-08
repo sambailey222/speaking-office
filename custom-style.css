@@ -8,6 +8,26 @@
     background-size: cover;
 }
 
+header {
+
+    font-size: 20px;
+}
+
+.header-container {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.header-container h2 {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .header-container h2 {
+        font-size: 20px;
+    }
+}
+
 .dark-blue-text {
     color: #1B75BC;
 }
