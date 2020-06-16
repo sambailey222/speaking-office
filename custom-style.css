@@ -209,6 +209,7 @@ hr {
     position: relative;
     background-color: #fefefe;
     margin: auto;
+    margin-top: -3%;
     padding: 0;
     width: 48%;
     max-width: 1200px;
@@ -234,6 +235,7 @@ hr {
   /* Hide the slides by default */
   .mySlides {
     display: none;
+    /* background-color:black; */
   }
   
   /* Next & previous buttons */
@@ -241,7 +243,7 @@ hr {
   .next {
     cursor: pointer;
     position: absolute;
-    top: 40%; /* use pixel value for small devices (200px) and bigger one for large devices */
+    top: 220px;
     width: auto;
     padding: 16px;
     margin-top: -50px;
@@ -254,6 +256,14 @@ hr {
     -webkit-user-select: none;
   }
   
+  @media screen and (min-width: 1225px) {
+
+  .prev,
+  .next {
+    top: 375px;
+    }
+  }
+
   /* Position the "next button" to the right */
   .next {
     right: 0;
@@ -306,4 +316,15 @@ hr {
       background-color: black;
       margin-bottom: 0px;
       font-size:20px;
+  }
+
+  .top-button {
+    position: relative;
+    bottom: 56px;
+    letter-spacing: 2px;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 50%;
+    
   }
